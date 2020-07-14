@@ -8,7 +8,7 @@ namespace Zoo.Class
 /// </summary>
     public abstract class Animal
     {
-        public string  Type { get; set; }
+        public string Type { get; set; }
         public string Name { get; set; }
         public string Habitat { get; set; }
         public string Eats { get; set; }
@@ -16,15 +16,15 @@ namespace Zoo.Class
         public Animal Animals(string type)
         {
             Animal animal = null;
-            if(type == "Human")
+            if (type == "Human")
             {
                 animal = new Human();
             }
-            else if(type == "Ape")
+            else if (type == "Ape")
             {
                 animal = new Ape();
             }
-            else if ( type == "Sea Lion")
+            else if (type == "Sea Lion")
             {
                 animal = new SeaLion();
             }
@@ -48,10 +48,10 @@ namespace Zoo.Class
         /// </summary>
         /// <param name="name"> any name of an animal </param>
         /// <returns> message </returns>
-        public string Sound (string name)
+        public string Sound(string name)
         {
             string message = $"{name} can make sounds";
-            Console.WriteLine($"{name} can make sounds");
+            Console.WriteLine(message);
             return message;
         }
     }
