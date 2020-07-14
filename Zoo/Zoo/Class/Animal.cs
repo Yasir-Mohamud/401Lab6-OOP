@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Zoo.Class
-{
+{/// <summary>
+/// Abstract class
+/// </summary>
     public abstract class Animal
     {
         public string  Type { get; set; }
@@ -41,6 +43,11 @@ namespace Zoo.Class
             return animal;
         }
 
+        /// <summary>
+        /// Return a string that animal can make a sound
+        /// </summary>
+        /// <param name="name"> any name of an animal </param>
+        /// <returns> message </returns>
         public string Sound (string name)
         {
             string message = $"{name} can make sounds";

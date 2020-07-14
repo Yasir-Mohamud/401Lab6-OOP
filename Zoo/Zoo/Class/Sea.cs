@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Zoo.Class
 {
-   public abstract class Sea:Mammal
+    /// <summary>
+    /// This is a Abstract class. The Sea is the derived class and the Mammal is the parent class
+    /// </summary>
+    public abstract class Sea:Mammal
     {
     }
 }

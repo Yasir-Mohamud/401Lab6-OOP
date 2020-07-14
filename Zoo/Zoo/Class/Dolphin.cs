@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Zoo.Class
 {
+    /// <summary>
+    /// Concrete class.The Dolphin is the derived class and the Sea is the parent class/
+    /// </summary>
     public class Dolphin:Sea
     {
         public Dolphin()
