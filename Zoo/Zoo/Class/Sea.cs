@@ -9,5 +9,9 @@ namespace Zoo.Class
     /// </summary>
     public abstract class Sea:Mammal
     {
+        public Sea()
+        {
+            Tempreture = "cool";
+        }
     }
 }

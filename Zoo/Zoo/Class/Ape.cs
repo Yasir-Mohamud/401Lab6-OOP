@@ -11,11 +11,17 @@ namespace Zoo.Class
         /// </summary>
         public Ape()
         {
-            Name = "Ape";
+            Name = "King Kong";
             Habitat = "Earth";
             Eats = "Banana";
         }
-            
-        
+
+        public override string TypeOfEater()
+        {
+            string message = $"{Name} am a herbavore , i eat plants and fruits";
+            Console.WriteLine(message);
+            return message;
+        }
+
     }
 }

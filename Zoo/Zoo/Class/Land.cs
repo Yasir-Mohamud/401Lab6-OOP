@@ -9,5 +9,10 @@ namespace Zoo.Class
     /// </summary>
     public abstract class Land:Mammal
     {
+
+        public Land()
+        {
+            Tempreture = "cool and hot";
+        }
     }
 }

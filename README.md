@@ -30,7 +30,7 @@ Then select and open ```Zoo.sln```
 ---
 
 ### Visuals
-![Image 1]("CC:\Users\yasmo\source\repos\401Lab6-OOP\assets\Screenshot (6).png")
+![Image 1](assets\OOPdiagram.png)
 ## OOP Principles
 ---------------
 

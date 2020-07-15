@@ -11,9 +11,16 @@ namespace Zoo.Class
     {
         public SeaLion()
         {
-            Name = "Sea Lion";
+            Name = "Wally the sea lion";
             Habitat = "Land or Sea";
             Eats = "Fish";
+        }
+
+        public override string TypeOfEater()
+        {
+            string message = "I am a carnivore, I eat fish";
+            Console.WriteLine(message);
+            return message;
         }
     }
 }

@@ -12,9 +12,17 @@ namespace Zoo.Class
 
         public Whale()
         {
-            Name = "Whale";
+            Name = "Manny the Whale";
             Habitat = "Water";
             Eats = "Fish";
         }
+
+        public override string TypeOfEater()
+        {
+            string message = $"{Name} am a carnivore , I eat fish";
+            Console.WriteLine(message);
+            return message;
+        }
+
     }
 }
