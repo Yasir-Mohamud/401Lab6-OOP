@@ -5,7 +5,8 @@ using System.Text;
 namespace Zoo.Class
 {
     /// <summary>
-    /// Concrete class.The Dolphin is the derived class and the Sea is the parent class/
+    /// Concrete class.
+    /// Dolphin is the derived class and Sea is the parent class
     /// </summary>
     public class Dolphin:Sea
     {
@@ -13,9 +14,13 @@ namespace Zoo.Class
         {
             Name = "Skippy the Dolphin";
             Habitat = "Water";
-            Eats = "Fish";
         }
 
+
+        /// <summary>
+        /// Overrides the abbstract function TyprOfEater
+        /// </summary>
+        /// <returns>Name of and a message</returns>
         public override string TypeOfEater()
         {
             string message = $"{Name} am a carnivore, I eat fish";

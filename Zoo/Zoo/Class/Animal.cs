@@ -5,14 +5,16 @@ using System.Text;
 namespace Zoo.Class
 {/// <summary>
 /// Abstract class
+/// Base class
 /// </summary>
     public abstract class Animal
     {
         public string Type { get; set; }
         public string Name { get; set; }
         public string Habitat { get; set; }
-        public string Eats { get; set; }
 
+        // Abstract property
+        public abstract string BloodTempreture { get; set; }
 
         public Animal Animals(string type)
         {

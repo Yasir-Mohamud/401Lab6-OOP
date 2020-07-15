@@ -24,7 +24,9 @@ namespace Zoo
             whale.TypeOfEater();
             ape.TypeOfEater();
             seaLion.GivesBirth();
+            Console.WriteLine(seaLion.BloodTempreture);
 
         }
+
     }
 }
