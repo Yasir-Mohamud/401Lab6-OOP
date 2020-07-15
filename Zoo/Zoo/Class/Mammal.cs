@@ -22,6 +22,8 @@ namespace Zoo.Class
         {
             Hair = "I have little hair";
         }
+
+
         // Abstract method
         public abstract string TypeOfEater();
 

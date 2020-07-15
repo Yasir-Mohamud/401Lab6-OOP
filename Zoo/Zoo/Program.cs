@@ -18,17 +18,12 @@ namespace Zoo
             SeaLion seaLion = new SeaLion();
             Ape ape = new Ape();
 
-           
-            human.Sound(human.Name);
+
+            human.GivesBirth();
             dolphin.Sound(dolphin.Name);
-            whale.TypeOfEater();
-            ape.TypeOfEater();
-            seaLion.GivesBirth();
-            Console.WriteLine(seaLion.Hair);
-            Console.WriteLine(human.Hair);
             ape.PlaysGames();
-            whale.Breathe();
-            human.Breathe();
+            whale.TypeOfEater();
+            seaLion.Breathe();
 
         }
 

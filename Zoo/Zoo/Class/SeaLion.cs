@@ -13,7 +13,7 @@ namespace Zoo.Class
 
         public SeaLion()
         {
-            Name = "Wally the sea lion";
+            Name = "Wally the Sea Lion";
             Habitat = "Land or Sea";
             
         }

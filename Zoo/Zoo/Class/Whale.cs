@@ -17,7 +17,6 @@ namespace Zoo.Class
             Habitat = "Water";
         }
 
-
         /// <summary>
         /// Overrides the abbstract function TyprOfEater
         /// </summary>
