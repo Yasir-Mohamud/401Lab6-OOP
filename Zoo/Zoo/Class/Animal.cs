@@ -13,6 +13,7 @@ namespace Zoo.Class
         public string Habitat { get; set; }
         public string Eats { get; set; }
 
+
         public Animal Animals(string type)
         {
             Animal animal = null;
@@ -54,5 +55,11 @@ namespace Zoo.Class
             Console.WriteLine(message);
             return message;
         }
+
+
+        //// abstract method
+        public abstract string GivesBirth();
+
+        
     }
 }

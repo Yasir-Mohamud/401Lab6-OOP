@@ -9,9 +9,12 @@ namespace Zoo.Class
         /// <summary>
         /// This is a Abstract class. The LandAndSea is the derived class and the Mammal is the parent class
         /// </summary>
+        /// 
+     
+
         public LandAndSea()
         {
-
+            Tempreture = "cool";
         }
     }
 }

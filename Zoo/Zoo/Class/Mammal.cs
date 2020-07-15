@@ -9,6 +9,16 @@ namespace Zoo.Class
     /// </summary>
     abstract public class Mammal:Animal
     {
-     
+
+        public string Tempreture { get; set; }
+
+        public sealed override string GivesBirth()
+        {
+            string message = $"{Name} gives birth and does not lay eggs because it is a mammal";
+            Console.WriteLine(message);
+            return message;
+        }
+
+
     }
 }

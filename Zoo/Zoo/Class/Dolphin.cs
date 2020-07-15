@@ -11,9 +11,11 @@ namespace Zoo.Class
     {
         public Dolphin()
         {
-            Name = "Dolphin";
+            Name = "Skippy the Dolphin";
             Habitat = "Water";
             Eats = "Fish";
         }
+
+  
     }
 }

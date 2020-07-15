@@ -11,9 +11,14 @@ namespace Zoo.Class
     {
         public Human()
         {
-            Name = "Human";
+            Name = "Yasir";
             Habitat = "Earth";
             Eats = "Anything";
         }
+
+   
     }
+
+
+   
 }

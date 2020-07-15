@@ -18,11 +18,14 @@ namespace Zoo
             SeaLion seaLion = new SeaLion();
             Ape ape = new Ape();
 
-            ape.Sound(ape.Name);
+           
             human.Sound(human.Name);
             dolphin.Sound(dolphin.Name);
             whale.Sound(whale.Name);
             seaLion.Sound(seaLion.Name);
+
+            human.GivesBirth();
+            Console.WriteLine($"the temp is {human.Tempreture}");
         }
     }
 }

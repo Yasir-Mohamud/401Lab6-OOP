@@ -11,11 +11,11 @@ namespace Zoo.Class
         /// </summary>
         public Ape()
         {
-            Name = "Ape";
+            Name = "King Kong";
             Habitat = "Earth";
             Eats = "Banana";
         }
-            
-        
+
+
     }
 }
