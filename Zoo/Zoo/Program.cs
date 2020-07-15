@@ -21,11 +21,10 @@ namespace Zoo
            
             human.Sound(human.Name);
             dolphin.Sound(dolphin.Name);
-            whale.Sound(whale.Name);
-            seaLion.Sound(seaLion.Name);
+            whale.TypeOfEater();
+            ape.TypeOfEater();
+            seaLion.GivesBirth();
 
-            human.GivesBirth();
-            Console.WriteLine($"the temp is {human.Tempreture}");
         }
     }
 }

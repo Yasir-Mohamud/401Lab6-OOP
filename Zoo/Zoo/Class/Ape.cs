@@ -16,6 +16,12 @@ namespace Zoo.Class
             Eats = "Banana";
         }
 
+        public override string TypeOfEater()
+        {
+            string message = $"{Name} am a herbavore , i eat plants and fruits";
+            Console.WriteLine(message);
+            return message;
+        }
 
     }
 }

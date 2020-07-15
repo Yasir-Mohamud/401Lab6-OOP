@@ -16,7 +16,12 @@ namespace Zoo.Class
             Eats = "Anything";
         }
 
-   
+        public override string TypeOfEater()
+        {
+            string message = $"{Name} am a omnivore , I eat plants and meat";
+            Console.WriteLine(message);
+            return message;
+        }
     }
 
 
