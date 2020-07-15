@@ -24,7 +24,11 @@ namespace Zoo
             whale.TypeOfEater();
             ape.TypeOfEater();
             seaLion.GivesBirth();
-            Console.WriteLine(seaLion.BloodTempreture);
+            Console.WriteLine(seaLion.Hair);
+            Console.WriteLine(human.Hair);
+            ape.PlaysGames();
+            whale.Breathe();
+            human.Breathe();
 
         }
 

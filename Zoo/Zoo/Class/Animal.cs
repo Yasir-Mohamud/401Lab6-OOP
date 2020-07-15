@@ -16,6 +16,9 @@ namespace Zoo.Class
         // Abstract property
         public abstract string BloodTempreture { get; set; }
 
+        // Virtual Ptoperty
+        public virtual bool CanSee { get; set; } = true;
+
         public Animal Animals(string type)
         {
             Animal animal = null;
@@ -62,6 +65,16 @@ namespace Zoo.Class
         //// abstract method
         public abstract string GivesBirth();
 
+        /// <summary>
+        /// Virtual method that gives a message
+        /// </summary>
+        /// <returns> Name of animal and a message</returns>
+        public virtual string PlaysGames()
+        {
+            string message = $"{Name} loves to play games";
+            Console.WriteLine(message);
+            return message;
+        }
         
     }
 }

@@ -10,6 +10,8 @@ namespace Zoo.Class
     public abstract class Land:Mammal
     {
         public override string Tempreture { get; set; }
+
+   
         public Land()
         {
             Tempreture = "cool and hot";

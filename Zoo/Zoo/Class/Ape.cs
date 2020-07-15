@@ -10,11 +10,12 @@ namespace Zoo.Class
     /// </summary>
     public class Ape:Land
     {
-        
+        public override string Hair { get => base.Hair; set => base.Hair = value; }
         public Ape()
         {
             Name = "King Kong";
-            Habitat = "Earth";
+            Habitat = "Jungle";
+            Hair = "long Hair";
         }
 
 

@@ -10,10 +10,12 @@ namespace Zoo.Class
     /// </summary>
     public class Human : Land
     {
+        public override string Hair { get => base.Hair; set => base.Hair = value; }
         public Human()
         {
             Name = "Yasir";
-            Habitat = "Earth";
+            Habitat = "House";
+            Hair = "Long hair";
         }
 
         /// <summary>
