@@ -5,17 +5,29 @@ using System.Text;
 namespace Zoo.Class
 {
     /// <summary>
-    /// Concrete class.The SeaLion is the derived class and the LandAndSea is the parent class/
+    /// Concrete class.
+    /// SeaLion is the derived class and LandAndSea is the parent class
     /// </summary>
     public class SeaLion:LandAndSea
     {
+
         public SeaLion()
         {
-            Name = "Wally the sea lion";
+            Name = "Wally the Sea Lion";
             Habitat = "Land or Sea";
-            Eats = "Fish";
+            
         }
 
+       
+
+
+
+
+
+        /// <summary>
+        /// Overrides the abbstract function TyprOfEater
+        /// </summary>
+        /// <returns>Name of and a message</returns>
         public override string TypeOfEater()
         {
             string message = "I am a carnivore, I eat fish";

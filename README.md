@@ -30,7 +30,9 @@ Then select and open ```Zoo.sln```
 ---
 
 ### Visuals
-![Image 1](assets\OOPdiagram.png)
+![Image 1](assets/OOPdiagram.png)
+*Running Application*
+![Image 2](assets\runnigapp.png)
 ## OOP Principles
 ---------------
 
@@ -45,11 +47,18 @@ In this code, inheritance is shown by the Concrete Animal classes applying prope
 
 --------
 The act of taking a real world example and breaking it down into fundamental parts or abstracting it to a more basic form. 
-In the code, this is shown by the concrete examples of animals like mammals being abstracted to animals,land being abstracted to mammals, and human being abstracted to lland.
+In the code, this is shown by the concrete examples of animals like mammals being abstracted to animals,land being abstracted to mammals, and human being abstracted to Land.
 
 ---
 
+3.Polymorphism
+---------
+The ability to change the behaviors of specific classes.In the code , this is shown using override like BloodTempreture in Mammals from its original abstract property in Animal
+
+---------
+4.Encapsulation
+--------------
+The process of keeping methods and behaviors confidential and either giving or restricting access.In the code, this is shown by using the access modifier in methods such as Sound in Animal giving all access to this method.
 ### Change Log
-1.1: *Added all files and unit tests - july 12 2020
-
-
+2.2 Finishes all code and tests - July 19, 2020
+1.1: Added all files and unit tests - July 12 2020
